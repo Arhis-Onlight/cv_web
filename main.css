@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    font-size: 1.2vw;
+}
+
+body{
+    background-image: url(hexagon-pattern2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ 
+
+.main {
+    display: flex;
+	flex-direction: column;
+	min-height: 80%;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2em;
+    padding-bottom: 2em;   
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-header {
+    text-align: center;
+     
+}
+
+.alert-no-background {
+    background: none;
+    margin-right: 0.3em;
+}
+
+.footer {
+    text-align: center;
+}

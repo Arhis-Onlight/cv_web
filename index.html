@@ -4,14 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arhis Onlight portfolio</title>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
 </head>
 <body>
-    <div class="alert alert-primary" role="alert">
-        This is a primary alert—check it out!
-      </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Welcome!</strong> This web-site for now contents only some articles which I choosed to be showing here.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="main">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <span class="alert-success alert-no-background"><strong>Un ragazzo</strong></span> <span class="badge badge-warning">Italian</span>
+                </button>
+                </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    C'era una volta un ragazzo, che si chiamava Mario. Era uno stimato giovanotto. 
+                    Ai suoi tempi aveva ottenuto gloria non comune per la sua età. Un ragazzo di 70 anni. Si era creato un suo modo di aiutare altri ragazzi a sentirsi diciottenni. 
+                    Suoi occhi erano pieni di energia ed illuminati dall'esperienza, tanta esperienza per la sua giovane età . La sua cara moglie, sua coetanea, lo amava più di chiunque al mondo. Questo ragazzo aveva avuto dei figli suo. Adesso ha 30 anni, como me, un figlio senza esperienza, ma con un buon senso dell'umorismo. Mario portò felicità a tutti i cuori. Lui amò ogni persona che venne al suo chiosco di frutta. Non lo vedo da più di un anno. E da allora il chiosco è tutto dei suoi figli. I loro sorrisi non fanno felici le facce di compratori, ormai.  Però, adesso sta in un altro posto, forse migliore...con sua moglie.  Sì, stanno facendo un viaggio intorno al mondo, già da circa due anni, e entrambi scaldano i cuori di tutto il mondo.
+                </div>
+            </div>
+            </div>
+            <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                    <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <span class="alert-success alert-no-background"><strong>The idea</strong></span> <span class="badge badge-warning">English</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    One way, one idea, one direction. All of them head to one place with mutual happiness, issues, points and organisations. They help each others and it makes them stronger, solid and cohesive. Water. The water sharpens a stone. So here they go, so proud and powerful whereas their ambitions are. They all give something from deep to mutual, without thinking too much of one-selves. It's not self-sacrifice, rather it's business. Even more, it's like a child that made first step, then walk, then after 5 years it's already on his own feet going. You look at it. Wow, it's was with your support. Thereafter you dip into them, it's already you, and you know what is there from your heart and what will make it grow more and more. It's already another level of communication. Their idea made them keen and mighty.
+                </div>
+            </div>
+            </div>
+            <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <span class="alert-success alert-no-background"><strong>Les petites nuances des grandes réalisations </strong></span> <span class="badge badge-warning">French</span>
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    Ce n'est pas une énigme, mais quelquefois il y a un fait caché que toutes les choses de les faire qualitative ils avaient la plus haute organisation et selon cela la contrôlabilité. Une chose qui est déjà décrite comme “cinq minutes avant l’excellent résultat ” doit être gérer de la meilleure façon. Peut-être avez vous déjà entendu de l'expression “Diviser pour mieux régner”. Pour chaque chose, élément ou idée séparé ou divisé ,on doit assurer une gestion différenciée.Par exemple, vous avez une idée.Pour l'atteindre, la gestion est nécessaire (dans ce cas création d’un plan).Le plan peut être grandiose.
+                    Mais pour appliquer ce plan de façon qualitative (avec une bonne gestion il sera nécessaire de le diviser en éléments plus petits afin de les affiner au mieux.S’il semble que même l’action d’affiner soit difficile, alors même séparez cette partie aux parties.Séparer et affiner chaque partie jusqu’à ce que chaque tâche vous semble d'une simplicité claire et soit facile à gérer. Un autre exemple sur “Diviser pour mieux régner”.Il n’est pas un secret que beaucoup de les pays indépendants et les alliances ils avaient le haute neuvel de développement et un gestion prudente bien coordonnée avec quelque idée, par exemple URSS(Union des républiques socialistes soviétiques) Et si l’objectif est de prendre le contrôle d’une telle alliance?Que feriez-vous? La communauté(le regroupement de nations) et la force/puissance, ne sont pas suffisants pour prendre le contrôle.Qu’est-ce qu’il aurait fallu? Droit, atténuer le contrôle par un façon par séparer sur ses parties, et à les empêcher des réitératif réunion juste par mettre les parties gérées et non gérés l’un contre l’autre. Par ce moyen se produit l’interception de contrôle et sa mise subtile de l’extérieur. Maintenant faisons quelques conclusions. À atteindre quelque chose de grand doit les diviser et alors les réunir ensemble par votre propre façon de faire choque partie dépendant ou ajuster l’un contre l’autre.
+                </div>
+            </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <span class="alert-success alert-no-background"><strong>Инь-Янь и 21- вековый человек :D</strong></span> <span class="badge badge-warning">Russian</span>
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        На самом деле человек живет на земле очень долго, менялись народы, культуры, обычаи, вероисповедания, ценности да и цивилизация в целом, она подверглась неизмеримым переменам, многое было забыто, многое усовершенствовано, многое скрыто, дабы не распространяться понапрасну. Я хотел бы именно в данной статье рассказать о законе равновесия. Кто-то может в это не верит, но как он работает? Если где-то что-то было взято то где-то что-то убудет, потому что закон равновесия хочет уровнять так сказать инь и янь=) Это не только касается материальных вещей, это также происходит на уровне эмоций, сил, энергии, всего чего угодно, любая отрасль, любое взаимодействие. А сейчас поговорим о моем любимом))) Это конечно же воровство))) Да, именно о нем. Почему воровать плохо? Не переживайте, я не буду вам проводить здесь целый урок))) Но я хотел бы отметить именно важные аспекты со стороны закона равновесия. Когда что-либо украдено идет дисбаланс в вашей личной вселенной и жизни. Вы к примеру обзавелись новым телефоном в подворотне))) Немножко банальный пример, но всё же. Вся проблема в том, чтобы всё это уровнять придется вам что-либо отдать. Возможно это будет украденный кошелек у вас, также возможно проблемы со здоровьем куда вы вложите не малую сумму денег. Другой пример, вынесенная с работы какая нибудь гайка, и т.п. любой спертый материал в дом приличного семьянина. Вам эта гаечка вылезет очень даже ничего в самом негативном свете дня или ночи. Другой пример. Представьте себе индустрию кино. Какие колоссальные сумы денег были потрачены чтобы создать фильм который вы с друзьями скачаете в сети или посмотрите по-пиратски так сказать, опять дисбаланс)) Музыка..... и всё та же песня)) Надо за всё платить ребята))) Нелицензионный Windows, Photoshop, Office и т.д. Но теперь подходим к самому интересному, к подаркам)))) Подарки это хорошо. Подаренный подарок от души, это как согревающая улыбка в холодный зимний метельный день, вы наслаждаетесь подарком. Бывают очень дорогие подарки, их нужно уметь принимать, и их обычно не дарят тем кто ничего не отдавал, подарок это своего рода компенсация за одданое ранее и т.п.. Но есть маленькое но))) Если вам что-то нужно вы должны за это платить, к примеру. Вам надо что-то купить, но вам не охота совсем тратить на это деньги, вам могут это подарить бесплатно))) Ой за это вы позже заплатите, не обязательно деньгами)))Также будьте осмотрительны и не принимайте подарки которые дают к примеру в магазине. Купили машину, а вам дерьмовый, извините за слово, пылесос в подарок. Вот за такие подарки вы будете платить втройне или даже в 5 раз больше))) Вас к примеру оштрафуют где-то, как один из вариантов)) Поймите одну простую вещь, хорошие товары дешевыми не бывают, качественные продукты питания также дешевые не бывают))) Всё что дешевое то не качественное и вы сами выбираете чем наполнять вашу жизнь. Спасибо за прочтение статьи!
+                    </div>
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="alert alert-secondary footer" role="alert">
+        Arhis Onlight © 2020
+    </div>
 </body>
 </html>
